@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* styles.css */
+
+/* .light {
+    transition: all .3s ease-in-out;
+}
+
+.dark {
+    transition: all .3s ease-in-out;
+    background-color: #525252;
+    color: #ffffff;
+
+    h2{
+        color: white;
+    }
+
+    button{
+        background-color: #525252;
+    }
+    
+    
+}
+ */
+.handle-row{
+    display: none ;
+    @media (min-width:768px) { 
+        display: table-cell ;
+    }
+}
